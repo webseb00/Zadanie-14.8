@@ -20,7 +20,7 @@ Search = React.createClass({
 		if(event.keyCode === 13) {
 			this.props.onSearch(this.state.searchingText);
 		}
-	}
+	},
 
 	render: function() {
 		var styles = {
